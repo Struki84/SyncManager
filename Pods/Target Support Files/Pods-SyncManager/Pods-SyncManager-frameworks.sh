@@ -86,10 +86,12 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-SyncManager/Alamofire.framework"
   install_framework "Pods-SyncManager/Loggerithm.framework"
+  install_framework "Pods-SyncManager/SwiftRecord.framework"
   install_framework "Pods-SyncManager/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-SyncManager/Alamofire.framework"
   install_framework "Pods-SyncManager/Loggerithm.framework"
+  install_framework "Pods-SyncManager/SwiftRecord.framework"
   install_framework "Pods-SyncManager/SwiftyJSON.framework"
 fi

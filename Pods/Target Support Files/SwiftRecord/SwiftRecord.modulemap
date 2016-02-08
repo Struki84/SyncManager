@@ -1,0 +1,6 @@
+framework module SwiftRecord {
+  umbrella header "SwiftRecord-umbrella.h"
+
+  export *
+  module * { export * }
+}

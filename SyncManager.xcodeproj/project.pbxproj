@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		D50889F9A6664943F3D07305 /* Pods_SyncManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 614B20DBD2387AB015F0E677 /* Pods_SyncManager.framework */; };
 		F93F77A31C6267BC00E5F23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F77A21C6267BC00E5F23E /* AppDelegate.swift */; };
-		F93F77A51C6267BC00E5F23E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F77A41C6267BC00E5F23E /* ViewController.swift */; };
+		F93F77A51C6267BC00E5F23E /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F77A41C6267BC00E5F23E /* UsersViewController.swift */; };
 		F93F77A81C6267BC00E5F23E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93F77A61C6267BC00E5F23E /* Main.storyboard */; };
 		F93F77AA1C6267BC00E5F23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93F77A91C6267BC00E5F23E /* Assets.xcassets */; };
 		F93F77AD1C6267BC00E5F23E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93F77AB1C6267BC00E5F23E /* LaunchScreen.storyboard */; };
 		F93F77B81C6267FC00E5F23E /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F77B71C6267FC00E5F23E /* Sync.swift */; };
-		F93F77CB1C6275AF00E5F23E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F93F77C91C6275AF00E5F23E /* Model.xcdatamodeld */; };
-		F93F77CE1C6275E200E5F23E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F77CC1C6275E200E5F23E /* User.swift */; };
-		F93F77D51C6374D100E5F23E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F77D41C6374D100E5F23E /* Router.swift */; };
-		F93F77D91C63A38600E5F23E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F93F77D61C63A38600E5F23E /* Model.xcdatamodeld */; };
 		F93F77DA1C63A38600E5F23E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93F77D81C63A38600E5F23E /* User.swift */; };
+		F93F77DD1C6410AC00E5F23E /* SyncManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F93F77DB1C6410AC00E5F23E /* SyncManager.xcdatamodeld */; };
+		F9A3FDE41C67F9360023A661 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A3FDE31C67F9360023A661 /* LoginViewController.swift */; };
+		F9A3FDEB1C6801BE0023A661 /* RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A3FDEA1C6801BE0023A661 /* RegisterTableViewController.swift */; };
+		F9A3FDED1C68D6E50023A661 /* SaveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A3FDEC1C68D6E50023A661 /* SaveTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,17 +27,17 @@
 		786CFBFAAEAA97535EAD6680 /* Pods-SyncManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SyncManager/Pods-SyncManager.debug.xcconfig"; sourceTree = "<group>"; };
 		F93F779F1C6267BC00E5F23E /* SyncManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F93F77A21C6267BC00E5F23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F93F77A41C6267BC00E5F23E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F93F77A41C6267BC00E5F23E /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		F93F77A71C6267BC00E5F23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F93F77A91C6267BC00E5F23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F93F77AC1C6267BC00E5F23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F93F77AE1C6267BC00E5F23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F93F77B71C6267FC00E5F23E /* Sync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sync.swift; sourceTree = "<group>"; };
-		F93F77CA1C6275AF00E5F23E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
-		F93F77CC1C6275E200E5F23E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
-		F93F77D41C6374D100E5F23E /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		F93F77D71C63A38600E5F23E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		F93F77D81C63A38600E5F23E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F93F77DC1C6410AC00E5F23E /* SyncManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SyncManager.xcdatamodel; sourceTree = "<group>"; };
+		F9A3FDE31C67F9360023A661 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F9A3FDEA1C6801BE0023A661 /* RegisterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTableViewController.swift; sourceTree = "<group>"; };
+		F9A3FDEC1C68D6E50023A661 /* SaveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,20 +90,36 @@
 		F93F77A11C6267BC00E5F23E /* SyncManager */ = {
 			isa = PBXGroup;
 			children = (
+				F9A3FDE91C67F96F0023A661 /* Models */,
+				F9A3FDE21C67F9160023A661 /* Views */,
 				F93F77B71C6267FC00E5F23E /* Sync.swift */,
-				F93F77D41C6374D100E5F23E /* Router.swift */,
-				F93F77CC1C6275E200E5F23E /* User.swift */,
-				F93F77D61C63A38600E5F23E /* Model.xcdatamodeld */,
-				F93F77D81C63A38600E5F23E /* User.swift */,
-				F93F77A41C6267BC00E5F23E /* ViewController.swift */,
-				F93F77A61C6267BC00E5F23E /* Main.storyboard */,
-				F93F77AB1C6267BC00E5F23E /* LaunchScreen.storyboard */,
 				F93F77A21C6267BC00E5F23E /* AppDelegate.swift */,
 				F93F77AE1C6267BC00E5F23E /* Info.plist */,
-				F93F77C91C6275AF00E5F23E /* Model.xcdatamodeld */,
 				F93F77A91C6267BC00E5F23E /* Assets.xcassets */,
 			);
 			path = SyncManager;
+			sourceTree = "<group>";
+		};
+		F9A3FDE21C67F9160023A661 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9A3FDEC1C68D6E50023A661 /* SaveTableViewController.swift */,
+				F9A3FDEA1C6801BE0023A661 /* RegisterTableViewController.swift */,
+				F93F77AB1C6267BC00E5F23E /* LaunchScreen.storyboard */,
+				F93F77A61C6267BC00E5F23E /* Main.storyboard */,
+				F9A3FDE31C67F9360023A661 /* LoginViewController.swift */,
+				F93F77A41C6267BC00E5F23E /* UsersViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F9A3FDE91C67F96F0023A661 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F93F77DB1C6410AC00E5F23E /* SyncManager.xcdatamodeld */,
+				F93F77D81C63A38600E5F23E /* User.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,14 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A3FDEB1C6801BE0023A661 /* RegisterTableViewController.swift in Sources */,
+				F9A3FDE41C67F9360023A661 /* LoginViewController.swift in Sources */,
 				F93F77B81C6267FC00E5F23E /* Sync.swift in Sources */,
-				F93F77CE1C6275E200E5F23E /* User.swift in Sources */,
-				F93F77D51C6374D100E5F23E /* Router.swift in Sources */,
-				F93F77D91C63A38600E5F23E /* Model.xcdatamodeld in Sources */,
 				F93F77DA1C63A38600E5F23E /* User.swift in Sources */,
-				F93F77A51C6267BC00E5F23E /* ViewController.swift in Sources */,
-				F93F77CB1C6275AF00E5F23E /* Model.xcdatamodeld in Sources */,
+				F93F77A51C6267BC00E5F23E /* UsersViewController.swift in Sources */,
 				F93F77A31C6267BC00E5F23E /* AppDelegate.swift in Sources */,
+				F9A3FDED1C68D6E50023A661 /* SaveTableViewController.swift in Sources */,
+				F93F77DD1C6410AC00E5F23E /* SyncManager.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,24 +411,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F93F77C91C6275AF00E5F23E /* Model.xcdatamodeld */ = {
+		F93F77DB1C6410AC00E5F23E /* SyncManager.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F93F77CA1C6275AF00E5F23E /* Model.xcdatamodel */,
+				F93F77DC1C6410AC00E5F23E /* SyncManager.xcdatamodel */,
 			);
-			currentVersion = F93F77CA1C6275AF00E5F23E /* Model.xcdatamodel */;
-			name = Model.xcdatamodeld;
-			path = ../Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		F93F77D61C63A38600E5F23E /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F93F77D71C63A38600E5F23E /* Model.xcdatamodel */,
-			);
-			currentVersion = F93F77D71C63A38600E5F23E /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
+			currentVersion = F93F77DC1C6410AC00E5F23E /* SyncManager.xcdatamodel */;
+			path = SyncManager.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

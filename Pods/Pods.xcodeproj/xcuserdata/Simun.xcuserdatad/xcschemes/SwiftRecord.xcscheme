@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1A21A5C51704DB6082C32DBE'
-               BlueprintName = 'Loggerithm'
+               BlueprintIdentifier = '94FF9F7DA8DBB97E68ABF332'
+               BlueprintName = 'SwiftRecord'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Loggerithm.framework'>
+               BuildableName = 'SwiftRecord.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
